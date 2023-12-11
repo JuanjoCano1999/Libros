@@ -31,6 +31,11 @@ if($resultado){
     }
 }
 
+
+
+
+
+
 ?>
 
 <body>
@@ -192,7 +197,7 @@ if($resultado){
 
                 <div class="formularioDimension">
                     <div class="formulario">
-                        <form method="post">
+                        <form method="post" id="formulario" onsubmit="return validarFormulario()">
                             <p><label>ID: <input type="text" name="id" maxlength="60" placeholder="ID"></label></p>
                             <p><label>titulo: <input type="text" name="Titulo" maxlength="60"
                                         placeholder="Nombre"></label></p>
@@ -214,6 +219,7 @@ if($resultado){
             </div>
         </div>
     </section>
+    <script src="/js/libros.js"></script>
 </body>
 
 </html>
