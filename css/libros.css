@@ -1,0 +1,457 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+.head {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    background-color: #004D43;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.navegacion {
+    display: flex;
+    margin-left: 55%;
+}
+
+.navegacion a {
+    display: block;
+    font-size: 14.4px;
+    font-family: 'work sans';
+    text-decoration: none;
+    padding: 20px 20px;
+    margin: 0px 32px 0px 0px;
+    color: white;
+    float: right;
+}
+
+header {
+    display: flex;
+    height: 48px !important;
+}
+
+#buscador {
+
+    margin: 5px;
+    padding: 10px 10px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------------------------------ */
+input[type="text"],
+input[type="email"], 
+ input[type="tel"]{
+	
+	width:280px;
+	padding:3px 10px;
+	border:1px solid  rgb(0, 0, 0);
+	border-radius:3px;
+	margin:8px 0;
+	font-family: 'Shantell Sans', cursive;
+	box-shadow: 0 0 5px #000000;
+	
+}
+
+input[type="submit"],[type="reset"] {
+    background-color: #004D43; 
+    color: #fff;
+	width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin: 2px;
+}
+
+input[type="reset"]:hover {
+    background-color: #000000; 
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+#lupa {
+
+    width: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: transparent;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+
+#libreria {
+    background-color: transparent;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    margin: 10px 10px 10px 210px;
+    transition: all 1 ease;
+}
+
+
+
+#cuenta {
+    background-color: transparent;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    margin: 10px 10px;
+    transition: all 1 ease;
+
+}
+
+#carrito {
+    background-color: transparent;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    margin: 10px 10px;
+    transition: all 1 ease;
+}
+
+#hamburguesa {
+    background-color: transparent;
+    width: 100px;
+    height: 38px;
+    margin: 10px 10px 10px 350px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    transition: all 1 ease;
+}
+
+.menu_debajo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    background-color: antiquewhite;
+    width: 100%;
+    z-index: 100;
+}
+
+.navegacion_debajo {
+    display: flex;
+
+}
+
+.navegacion_debajo a {
+    display: block;
+    font-size: 14.4px;
+    font-family: 'work sans';
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #004D43;
+    float: right;
+}
+
+
+
+.divisor {
+    clear: both;
+    width: 100%;
+    height: 1px;
+    border: solid 1px #ccc;
+}
+
+.contenido {
+
+    height: 700px;
+    padding: 30px;
+}
+
+.box-container {
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+ 
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+#portada {
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+}
+
+.paginas {
+    color: #004D43;
+    font-size: 1rem;
+    transition: all 1 ease;
+    padding: 5px;
+
+}
+
+#primeras_paginas {
+    background-color: transparent;
+    width: 250px;
+    height: 38px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #004D43;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: "Source Serif Pro";
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 27.008px;
+    font-family: "Source Serif Pro";
+    color: #000000DE;
+    float: left;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 27.008px;
+    font-family: "Source Serif Pro";
+    color: #757575;
+    float: left;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: "Work Sans", "Source Sans Pro";
+    color: #000000DE;
+    margin-top: 30px;
+}
+
+#fuego {
+    color: #000000DE;
+    font-size: 22px;
+    font-family: "Source Serif Pro", "Source Sans Pro";
+}
+
+.estrellasOpinion {
+    display: flex;
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.estrellas {
+    width: 200px;
+    height: 30px;
+}
+
+.valoracion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valoracion input {
+    display: none;
+}
+
+.valoracion label {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.valoracion input:checked~label {
+    color: #f7d701;
+}
+
+.opinion {
+    width: 200px;
+    height: 30px;
+}
+
+#opinionP {
+    color: #D9017A;
+    font-size: 14px;
+    font-family: "Work Sans", "Source Sans Pro";
+    margin: 5px;
+    cursor: pointer;
+}
+
+.botonesVerdes {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 30px;
+
+}
+
+#literatura {
+    height: 34px;
+    background-color: #004D43;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#narrativa {
+    height: 34px;
+    background-color: #004D43;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#fantastica {
+    height: 34px;
+    background-color: #004D43;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.sinopsis {
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+
+}
+
+#sinopsisP {
+    margin: 5px;
+    margin-top: 25px;
+    font-family: "Work Sans", "Source Sans Pro";
+    font-size: 16px;
+    color: #000000DE;
+}
+
+.botonRojo {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+}
+
+.divisor-vertical {
+    border-left: 1px solid #000; 
+    height: 700px;
+    color: #000;
+  }
+
+
+
+#rojo {
+    background-color: #b71c1c;
+    font-family: "Work Sans", "Source sans pro";
+    font-size: 14px;
+    color: white;
+    width: 195.14px;
+    height: 24px;
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+.precio {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+#dinero {
+    font-size: 35px;
+    font-family: "Source Serif Pro";
+}
+
+.cestaRosa {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cesta {
+    width: 200px;
+    background-color: #d9017a;
+    color: #ffff;
+    font-family: "Work Sans";
+    font-size: 14px;
+    padding: 8px 26px;
+    border-radius: 5px;
+}
+
+.camion {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.camionTexto {
+    font-size: 14px;
+    font-family: "Work Sans";
+}
+
+.formularioDimension{
+    width: 400px;
+    height: 510px;
+  
+}
+
+/* ------------------------------------------------------------------------------ */
+
+form{
+	width:300px;
+	padding:16px;
+	margin:auto;
+	background-color: #004D43;;
+	margin-top: 30px;
+	box-shadow: 0 0 10px #000000;
+	color: white;
+	border-radius: 5px;
+	
+}
