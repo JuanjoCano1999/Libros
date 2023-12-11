@@ -39,7 +39,7 @@
                 document.getElementById("errorISBN").innerHTML = "";
             }
 
-               // Validar tipo
+               // Validar autor
                if (autor === "") {
                 document.getElementById("errorAutor").innerHTML = "Por favor, ingresa un tipo válido.";
                 return false;
@@ -47,7 +47,7 @@
                 document.getElementById("errorAutor").innerHTML = "";
             }
 
-               // Validar tipo
+               // Validar precio
                if (precio === "") {
                 document.getElementById("errorPrecio").innerHTML = "Por favor, ingresa un tipo válido.";
                 return false;
@@ -55,7 +55,7 @@
                 document.getElementById("errorPrecio").innerHTML = "";
             }
 
-               // Validar tipo
+               // Validar idioma 
                if (idioma === "") {
                 document.getElementById("errorIdioma").innerHTML = "Por favor, ingresa un tipo válido.";
                 return false;
