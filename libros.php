@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/libros.css">
 </head>
 
+
+
+
 <?php
 $inc = include("con_db.php");
 if($inc){
@@ -31,11 +34,10 @@ if($resultado){
     }
 }
 
+?>
 
-
-
-
-
+<?php 
+    include("Actualizar.php");
 ?>
 
 <body>
@@ -179,7 +181,7 @@ if($resultado){
                     </botton>
                 </div>
                 <div class="precio">
-                    <?php echo $precio?>$
+                    <?php echo $precio?>
                 </div>
                 <div class="cestaRosa">
                     <botton id="cesta">
@@ -199,9 +201,9 @@ if($resultado){
                     <div class="formulario">
                         <form method="post" id="formulario" onsubmit="return validarFormulario()">
                             <p><label>ID: <input type="text" name="id" maxlength="60" placeholder="ID"></label></p>
-                            <p><label>titulo: <input type="text" name="Titulo" maxlength="60"
+                            <p><label>titulo: <input type="text" name="titulo" maxlength="60"
                                         placeholder="Nombre"></label></p>
-                            <p><label>tipo: <input type="text" name="Tipo" maxlength="60"
+                            <p><label>tipo: <input type="text" name="tipo" maxlength="60"
                                         placeholder="Editorial"></label></p>
                             <p><label>ISBN: <input type="text" name="isbn" maxlength="60" placeholder="isbn"></label>
                             </p>
