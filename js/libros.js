@@ -13,7 +13,7 @@
                 return false;
             } else {
                 document.getElementById("errorId").innerHTML = "";
-            }
+            } 
 
             // Validar titulo
             if (titulo === "") {

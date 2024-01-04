@@ -17,7 +17,7 @@
 <?php
 $inc = include("con_db.php");
 if($inc){
-$consulta = "SELECT * FROM libros WHERE id = 5";
+$consulta = "SELECT * FROM libros WHERE id = 3";
 $resultado = mysqli_query($conex, $consulta);
 if($resultado){
     while($row = $resultado->fetch_array()){
